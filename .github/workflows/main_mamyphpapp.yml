@@ -58,3 +58,4 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A8CB62F769ED40BAA12885EB80F3B568 }}
           package: .
+          skip_app_build: true
